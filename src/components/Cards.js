@@ -5,7 +5,8 @@ export default function Cards({ input }) {
     const [details, setDetails] = useState([])
 
     const robo = async() => {
-        const res = await fetch("http://localhost:3000/articles")
+        const res = await
+         fetch("https://api.npoint.io/707b1d5924dfa9824bb6/articles")
         const data = await res.json()
         setDetails(data)
     }
