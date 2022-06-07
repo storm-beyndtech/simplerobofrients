@@ -1,0 +1,44 @@
+{
+    "articles": [
+      {
+        "id": "1",
+        "email": "frode@sbcglobal.net",
+        "author": "Mario Strong"
+      },
+      {
+        "id": "2",
+        "email": "xnormal@msn.com",
+        "author": "James Smith"
+      },
+      {
+        "id": "3",
+        "email": "hermes@outlook.com",
+        "author": "Charles Bob"
+      },
+      {
+        "id": "4",
+        "email": "zwood@comcast.net",
+        "author": "Pete Chuck"
+      },
+      {
+        "id": "5",
+        "email": "policies@mac.com",
+        "author": "Willie Bill"
+      },
+      {
+        "id": "6",
+        "email": "yumpy@yahoo.ca",
+        "author": "BlackWood"
+      },
+      {
+        "id": "7",
+        "email": "syrinx@mac.com",
+        "author": "Sylvia Steve"
+      },
+      {
+        "id": "8",
+        "email": "beyondtek@gmail.com",
+        "author": "BrainStorm"
+      }
+    ]
+  }

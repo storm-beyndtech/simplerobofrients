@@ -1,0 +1,132 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+.card-grid{
+width: 85%;
+padding: 15px;
+margin: 50px auto;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr ;
+gap: 10px;
+align-items: center;
+justify-content: center;
+}
+
+.robo-cards{
+text-align: center;
+padding: 15px;
+border-radius: 10px;
+background: rgba(255, 0, 119, 0.7);
+box-shadow: 2px 2px 4px rgba(255, 0, 174, 0.229);
+color: rgba(255, 255, 255, 0.792);
+transition: all .2s ease-in-out;
+}
+
+.robo-cards:hover{
+transform: scale(1.1);
+}
+
+.robo-cards img{
+width: 90%;
+}
+
+.search{
+width: 30%;
+background: transparent;
+border: 1px solid rgba(255, 255, 255, 0.492);
+padding: 12px 10px;
+font-size: 1rem;
+color: aliceblue;
+border-radius: 30px;
+margin-top: 20px;
+outline: none;
+}
+
+h1{
+font-size: 3rem;
+color: rgba(0, 234, 255, 0.792);
+}
+
+
+
+
+
+
+
+@media only screen and ( max-width: 1200px ) {
+
+
+.card-grid{
+width: 75%;
+grid-template-columns: 1fr 1fr 1fr ;
+}
+
+h3{
+font-size: 1.2rem;
+}
+
+}
+
+
+@media only screen and ( max-width: 800px ) {
+
+
+.card-grid{
+width: 75%;
+grid-template-columns: 1fr 1fr 1fr ;
+}
+
+
+}
+
+
+
+
+@media only screen and ( max-width: 600px ) {
+
+
+.card-grid{
+width: 95%;
+grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.search{
+width: 90%;
+}
+
+h1{
+margin: 10px auto;
+}
+
+
+}
+
+
+
+
+@media only screen and ( max-width: 500px ) {
+
+
+.card-grid{
+width: 75%;
+margin: 40px auto;
+grid-template-columns: 1fr 1fr;
+}
+
+.robo-cards{
+padding: 10px 7px;
+}
+
+.search{
+width: 90%;
+margin: 20px auto;
+}
+
+h6{
+font-weight: 200;
+}
+
+}
